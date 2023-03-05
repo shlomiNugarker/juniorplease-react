@@ -14,5 +14,15 @@
 @import 'basics/animations';
 
 // Pages
-
 // Cmps
+
+.temp-nav {
+  background-color: #43424177;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  padding: 5px;
+  a {
+    margin: 15px;
+  }
+}

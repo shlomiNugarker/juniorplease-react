@@ -7,9 +7,8 @@ type Props = {
 }
 
 function ProtectedRoute({ children, path }: Props) {
-  console.log(path)
-
   // if (path === '/') {
+  // ...
   // }
 
   return children
