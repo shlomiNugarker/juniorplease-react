@@ -7,7 +7,7 @@ import ProfilePage from './pages/profile-page/ProfilePage'
 function App() {
   return (
     <div className="App">
-      <div>
+      <div className="temp-nav">
         <Link to={'/'}>Home</Link>
         <Link to={'/profile/some-id'}>Profile</Link>
       </div>
