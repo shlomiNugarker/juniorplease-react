@@ -1,0 +1,63 @@
+.header {
+  width: 100%;
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  .container {
+    height: 100px;
+    min-width: 100%;
+
+    width: 100%;
+    padding: 23px 19px 21px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    span {
+      svg {
+        height: 80px;
+        width: 250px;
+      }
+    }
+
+    .btns {
+      display: flex;
+      justify-content: center;
+      button {
+        border: none;
+        padding: 5px;
+        background: unset;
+      }
+      .sign-up {
+        text-align: left;
+        padding-left: 15px;
+        width: 125px;
+        margin-left: 15px;
+        background: #ecfafe 0% 0% no-repeat padding-box;
+        box-shadow: 5px 1px 0px -1px #50a0c0 inset;
+        overflow: hidden;
+        transition: box-shadow, 0.3s;
+
+        &:hover {
+          color: white;
+          box-shadow: 125px 1px 0px -1px #50a0c0 inset;
+          transition: box-shadow, 0.3s;
+        }
+      }
+      .login {
+        margin-left: 15px;
+        color: #59b7df;
+      }
+      .menu {
+        display: flex;
+        margin-left: 45px;
+        background-color: #ecfafe;
+        border: 0.5px solid #bfedfd;
+        svg {
+          width: 30px;
+          height: 30px;
+        }
+      }
+    }
+  }
+}
